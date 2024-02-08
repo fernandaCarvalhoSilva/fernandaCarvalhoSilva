@@ -1,5 +1,5 @@
 import React from "react";
-import { PortFolioSection, SkillsContainer } from "../components/Content.style";
+import { PortFolioSection, SkillsContainer } from "./Content.style";
 import {
   FaReact,
   FaJs,
