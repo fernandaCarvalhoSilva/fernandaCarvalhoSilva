@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ad006d8.css",
-    "main.js": "/static/js/main.a3ae3f80.js",
-    "static/js/592.6d7de513.chunk.js": "/static/js/592.6d7de513.chunk.js",
-    "static/media/avatar.png": "/static/media/avatar.cc3e94da7cedfabcd610.png",
-    "static/media/graphql.svg": "/static/media/graphql.69e5cc8002f2ad088fb47159a635a494.svg",
-    "static/media/cypress.svg": "/static/media/cypress.950647791f9ebc0df4792f03b4bd192d.svg",
-    "static/media/tailwind-css.svg": "/static/media/tailwind-css.8c1dcd5bdbd5bf4d01a2d0c76b62fbfa.svg",
-    "static/media/typescript.svg": "/static/media/typescript.fb66b72a3638e2d313345eaf1029ea01.svg",
-    "static/media/nextjs.svg": "/static/media/nextjs.869f375a07de3685f46ccb395cd5a7c1.svg",
-    "index.html": "/index.html",
-    "static/media/hamburgerMenu.svg": "/static/media/hamburgerMenu.2f45f7c7127a832135968824df3e6087.svg",
-    "main.6ad006d8.css.map": "/static/css/main.6ad006d8.css.map",
-    "main.a3ae3f80.js.map": "/static/js/main.a3ae3f80.js.map",
-    "592.6d7de513.chunk.js.map": "/static/js/592.6d7de513.chunk.js.map"
+    "main.css": "/fernandaCarvalhoSilva/static/css/main.6ad006d8.css",
+    "main.js": "/fernandaCarvalhoSilva/static/js/main.b84a4fba.js",
+    "static/js/592.6d7de513.chunk.js": "/fernandaCarvalhoSilva/static/js/592.6d7de513.chunk.js",
+    "static/media/avatar.png": "/fernandaCarvalhoSilva/static/media/avatar.cc3e94da7cedfabcd610.png",
+    "static/media/graphql.svg": "/fernandaCarvalhoSilva/static/media/graphql.69e5cc8002f2ad088fb47159a635a494.svg",
+    "static/media/cypress.svg": "/fernandaCarvalhoSilva/static/media/cypress.950647791f9ebc0df4792f03b4bd192d.svg",
+    "static/media/tailwind-css.svg": "/fernandaCarvalhoSilva/static/media/tailwind-css.8c1dcd5bdbd5bf4d01a2d0c76b62fbfa.svg",
+    "static/media/typescript.svg": "/fernandaCarvalhoSilva/static/media/typescript.fb66b72a3638e2d313345eaf1029ea01.svg",
+    "static/media/nextjs.svg": "/fernandaCarvalhoSilva/static/media/nextjs.869f375a07de3685f46ccb395cd5a7c1.svg",
+    "index.html": "/fernandaCarvalhoSilva/index.html",
+    "static/media/hamburgerMenu.svg": "/fernandaCarvalhoSilva/static/media/hamburgerMenu.2f45f7c7127a832135968824df3e6087.svg",
+    "main.6ad006d8.css.map": "/fernandaCarvalhoSilva/static/css/main.6ad006d8.css.map",
+    "main.b84a4fba.js.map": "/fernandaCarvalhoSilva/static/js/main.b84a4fba.js.map",
+    "592.6d7de513.chunk.js.map": "/fernandaCarvalhoSilva/static/js/592.6d7de513.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ad006d8.css",
-    "static/js/main.a3ae3f80.js"
+    "static/js/main.b84a4fba.js"
   ]
 }
