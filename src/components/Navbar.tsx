@@ -14,7 +14,7 @@ function Navbar({ handleNavLink, showAlways }: NavbarProps) {
     <NavbarContainer style={{ display: showAlways ? "block" : "none" }}>
       {navlinks[language].map((item, key) => (
         <NavItem>
-          <NavLink href={links[key]} onClick={handleNavLink}>
+          <NavLink to={links[key]} onClick={handleNavLink}>
             {item}
           </NavLink>
         </NavItem>

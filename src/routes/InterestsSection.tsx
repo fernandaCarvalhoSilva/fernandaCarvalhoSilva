@@ -1,4 +1,4 @@
-import { PortFolioSection } from "./Content.style";
+import { PortFolioSection } from "../components/Content.style";
 import { interests, title } from "../constants/interests.const";
 import { useLanguage } from "../contexts/LanguageContext";
 

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom"
 
 export const PortfolioSidebar = styled.div`
   padding-left: 0;
@@ -68,7 +69,7 @@ export const NavItem = styled.li`
   padding-top: 1.5rem;
 `;
 
-export const NavLink = styled.a`
+export const NavLink = styled(Link)`
   text-decoration: none;
   cursor: pointer;
   color: white;

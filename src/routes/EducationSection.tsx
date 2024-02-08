@@ -1,4 +1,4 @@
-import { EducationContainer, PortFolioSection } from "./Content.style";
+import { EducationContainer, PortFolioSection } from "../components/Content.style";
 import { education, title } from "../constants/education.const";
 import { useLanguage } from "../contexts/LanguageContext";
 

@@ -1,4 +1,4 @@
-import { CareersSection, PortFolioSection } from "./Content.style";
+import { CareersSection, PortFolioSection } from "../components/Content.style";
 import { experiences, title } from "../constants/experience.const";
 import { useLanguage } from "../contexts/LanguageContext";
 

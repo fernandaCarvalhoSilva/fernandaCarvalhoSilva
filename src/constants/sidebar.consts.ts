@@ -8,9 +8,9 @@ export const navlinks: Navlinks = {
 };
 
 export const links = [
-  "#about",
-  "#experience",
-  "#education",
-  "#skills",
-  "#interests",
+  "/about",
+  "/experience",
+  "/education",
+  "/skills",
+  "/interests",
 ];
