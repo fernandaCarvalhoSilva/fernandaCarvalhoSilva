@@ -1,7 +1,7 @@
 import React from "react";
-import { PortfolioContainer } from "./Portfolio.style";
-import Sidebar from "./components/Sidebar";
-import Content from "./components/Content";
+import { PortfolioContainer } from "../Portfolio.style";
+import Sidebar from "../components/Sidebar";
+import Content from "../components/Content";
 
 function App() {
   return (
