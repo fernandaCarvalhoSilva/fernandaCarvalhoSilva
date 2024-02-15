@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/resume" element={<Portfolio />} />
+        <Route path="/" element={<Portfolio />} />
       </Routes>
     </>
   );
