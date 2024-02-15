@@ -28,8 +28,18 @@ function Sidebar() {
     return false;
   };
 
-  const handleNavLink = () => {
+  const handleNavLink = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, href: string) => {
     setShowNavbar(!showNavbar);
+    event.preventDefault();
+    const targetId = href.substring(1);
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      const offsetTop = targetElement.offsetTop;
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth'
+      });
+    }
   };
 
   const toggleLanguage = (value: string) => {

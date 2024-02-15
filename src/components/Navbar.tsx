@@ -3,7 +3,7 @@ import { navlinks, links } from "../constants/sidebar.consts";
 import { useLanguage } from "../contexts/LanguageContext";
 
 interface NavbarProps {
-  handleNavLink: React.MouseEventHandler<HTMLAnchorElement>;
+  handleNavLink: any;
   showAlways: boolean;
 }
 
@@ -14,7 +14,7 @@ function Navbar({ handleNavLink, showAlways }: NavbarProps) {
     <NavbarContainer style={{ display: showAlways ? "block" : "none" }}>
       {navlinks[language].map((item, key) => (
         <NavItem>
-          <NavLink href={links[key]} onClick={handleNavLink}>
+          <NavLink href={links[key]} onClick={(e) => handleNavLink(e, links[key])}>
             {item}
           </NavLink>
         </NavItem>
