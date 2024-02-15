@@ -11,7 +11,7 @@ function App() {
         const targetId = event.target.getAttribute('href').substring(1);
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
-          const offsetTop = targetElement.offsetTop;
+          const offsetTop = targetElement.offsetTop - 15;
           window.scrollTo({
             top: offsetTop,
             behavior: 'smooth'

@@ -95,6 +95,11 @@ export const CareersSection = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-top: 3rem;
+  
+  @media (max-width: 575px) {
+    display: grid;
+    line-height: 3;
+  }
 `;
 
 export const EducationContainer = styled.div`
